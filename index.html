@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden Gadget Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" id="pageLoader">
+      <div class="spinner"></div>
+    </div>
+
+    <a href="https://wa.me/2349031355560?text=Hello%20Golden%20Gadget%20Hub" class="floating-btn whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+    <button class="floating-btn scroll-top" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+    <div class="announcement-bar">Free delivery on orders over ₦500,000</div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="Golden Gadget Hub logo" class="site-logo" />
+        <span>Golden Gadget Hub</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-tools">
+        <form class="search-bar">
+          <input type="text" placeholder="Search gadgets" />
+        </form>
+        <a href="contact.html" class="icon-link" aria-label="Login">🔑</a>
+        <a href="products.html" class="icon-link" aria-label="Cart">🛒</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy animate-fade-in">
+          <p class="eyebrow">Latest arrivals</p>
+          <h1><span id="typingHeadline"></span><span class="typing-cursor">|</span></h1>
+          <p>Discover trusted phones, accessories, and smart devices with fast support and great value.</p>
+          <div class="hero-actions">
+            <a class="btn" href="products.html">Shop Now</a>
+            <a class="btn secondary" href="about.html">About Us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap animate-zoom">
+          <img src="images/I Phone 17 pro max.jfif" alt="Luxury smartphone display" />
+        </div>
+      </section>
+
+      <section class="counter-section">
+        <div class="counter-card animate-slide-up">
+          <span class="counter-number" data-target="10000" data-suffix="+">0</span>
+          <p>Customers</p>
+        </div>
+        <div class="counter-card animate-slide-up">
+          <span class="counter-number" data-target="24" data-suffix="/7">0</span>
+          <p>Support</p>
+        </div>
+        <div class="counter-card animate-slide-up">
+          <span class="counter-number" data-target="98" data-suffix="%">0</span>
+          <p>Satisfaction</p>
+        </div>
+      </section>
+
+      <section class="categories-section">
+        <div class="section-heading animate-fade-in">
+          <h2>Shop by category</h2>
+          <p>Explore the latest collections for work, play, and everyday convenience.</p>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card animate-slide-up">Phones</div>
+          <div class="category-card animate-slide-up">Laptops</div>
+          <div class="category-card animate-slide-up">Smart Watches</div>
+          <div class="category-card animate-slide-up">Audio</div>
+        </div>
+      </section>
+
+      <section class="featured-section">
+        <div class="section-heading animate-slide-up">
+          <h2>Featured products</h2>
+          <p>Carefully selected devices and accessories for everyday brilliance.</p>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card animate-fade-in" data-aos="fade-up">
+            <div class="product-image-wrap">
+              <span class="discount-badge">-15%</span>
+              <img src="images/I Phone 15.jfif" alt="iPhone 15" />
+              <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+            <div class="product-info">
+              <h3>iPhone 15</h3>
+              <div class="rating">★★★★★</div>
+              <p>Elegant performance with advanced camera features.</p>
+              <div class="product-footer">
+                <strong>₦1,050,000</strong>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card animate-slide-up" data-aos="fade-up">
+            <div class="product-image-wrap">
+              <span class="discount-badge">-10%</span>
+              <img src="images/I Phone 17 pro max.jfif" alt="iPhone 17 Pro Max" />
+              <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+            <div class="product-info">
+              <h3>iPhone 17 Pro Max</h3>
+              <div class="rating">★★★★★</div>
+              <p>Flagship experience with premium display and speed.</p>
+              <div class="product-footer">
+                <strong>₦1,450,000</strong>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card animate-zoom" data-aos="fade-up">
+            <div class="product-image-wrap">
+              <span class="discount-badge">-20%</span>
+              <img src="images/I pone 16.jfif" alt="iPhone 16" />
+              <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+            <div class="product-info">
+              <h3>iPhone 16</h3>
+              <div class="rating">★★★★★</div>
+              <p>Modern design with dependable power and style.</p>
+              <div class="product-footer">
+                <strong>₦980,000</strong>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="highlights">
+        <div class="section-heading animate-zoom">
+          <h2>Why choose us</h2>
+          <p>Trusted support, premium selection, and a smooth shopping experience.</p>
+        </div>
+        <div class="highlights-grid">
+          <div class="highlight-card animate-flip">
+            <h3>Genuine products</h3>
+            <p>We work with trusted brands and ensure quality before any product reaches our customers.</p>
+          </div>
+          <div class="highlight-card animate-flip">
+            <h3>Fast assistance</h3>
+            <p>Questions about devices or delivery? Our support team is ready to help every step of the way.</p>
+          </div>
+          <div class="highlight-card animate-flip">
+            <h3>Secure checkout</h3>
+            <p>Enjoy a reliable buying experience with clear contact channels and attentive service.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Stay updated</h2>
+        <p>Join our newsletter for new arrivals, offers, and tech tips.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit" class="btn animate-bounce">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms & Conditions</a>
+      </div>
+      <p>&copy; 2026 Golden Gadget Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
