@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Golden Gadget Hub logo">
+  <rect width="200" height="200" rx="30" fill="#111111"/>
+  <circle cx="100" cy="100" r="68" fill="#f5c542"/>
+  <path d="M72 94c0-14 11-25 24-25h8c13 0 24 11 24 25v7c0 14-11 25-24 25h-8c-13 0-24-11-24-25z" fill="#111111"/>
+  <path d="M84 82h30" stroke="#f5c542" stroke-width="6" stroke-linecap="round"/>
+  <path d="M88 118h22" stroke="#f5c542" stroke-width="6" stroke-linecap="round"/>
+  <path d="M72 56l18 16" stroke="#f5c542" stroke-width="8" stroke-linecap="round"/>
+  <path d="M128 56l-18 16" stroke="#f5c542" stroke-width="8" stroke-linecap="round"/>
+  <path d="M84 145c8 7 24 8 32 0" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+</svg>
